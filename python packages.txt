@@ -1,0 +1,16 @@
+<packages>
+
+googlemaps
+pandas
+gmplot
+numpy
+pyodbc
+
+</packages>
+
+
+Googles maps API has SSL connection on as default.
+
+To turn off, go to googlemaps package. client.py and search for verify = True
+
+Change value True to False and save.
